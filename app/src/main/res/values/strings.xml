@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gandom_Test</string>
+    <string name="connected">Connected!</string>
+    <string name="connection_problem">Connection Problem!</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewItemClub"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/text_view_margin_normal"
+    android:layout_marginRight="@dimen/text_view_margin_normal"
+    android:layout_marginLeft="@dimen/text_view_margin_normal"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/card_corner_radius_large"
+    app:cardPreventCornerOverlap="false">
+
+    <com.ghandroid.app.test_01.utils.SquareRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/elementRootView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutCardViewItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop" />
+
+        </RelativeLayout>
+
+    </com.ghandroid.app.test_01.utils.SquareRelativeLayout>
+</android.support.v7.widget.CardView>
